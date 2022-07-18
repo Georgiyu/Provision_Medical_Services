@@ -15,7 +15,7 @@ import java.util.Properties;
 
 public class EmailService {
     public static void SendingEmail(String email, String name) throws IOException, MessagingException {
-
+     System.out.println('Hello')
         Properties properties = new Properties();
         properties.put("mail.transport.protocol", "smtp");
         properties.put("mail.smtp.host","smtp.yandex.ru");
